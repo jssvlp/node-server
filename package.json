@@ -1,0 +1,15 @@
+{
+  "name": "server-cmp",
+  "version": "1.0.0",
+  "description": "this is a server for two aplications: 1-Admin site 2-Client site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jossias.vel@gmail.com",
+  "license": "ISC",
+  "dependencies":{
+    	"express":"^4.17.1"
+  }
+}
