@@ -19,8 +19,8 @@ client.get('*', (req, res) => {
 admin.get('*', (req, res) => {
     res.sendFile(ADMIN_HTML_FILE)
 })
-const ADMIN_PORT = process.env.PORT || 8080
-const CLIENT_PORT = process.env.PORT || 8081
+const ADMIN_PORT = process.env.PORT || 8081
+const CLIENT_PORT = process.env.PORT || 8080
 
 admin.listen(ADMIN_PORT, () => {
     console.log(`App listening to ${ADMIN_PORT}....`)
